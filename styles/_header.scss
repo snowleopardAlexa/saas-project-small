@@ -1,0 +1,24 @@
+// mixins - it is like a function in JS
+@mixin flexCenter($direction, $background) {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: $direction;
+    background: $background;
+}
+
+header {
+
+@include flexCenter(column, red);
+    height: 100vh;
+    color: $textColor;
+      button {
+        background: $primaryBtn;
+        color: $textColor;
+        &::after {
+            content: "Helloo";
+        }
+      }
+}
+

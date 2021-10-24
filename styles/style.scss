@@ -1,0 +1,11 @@
+// imports 
+@import './variables';
+@import './header';
+@import './card';
+
+.contact button {
+    @include flexCenter(row, blue);
+    @extend .card;
+    width: 100% - 20%;
+}
+
