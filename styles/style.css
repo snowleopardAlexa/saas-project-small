@@ -58,5 +58,6 @@ header button::after {
       -ms-flex-direction: row;
           flex-direction: row;
   background: blue;
+  width: 80%;
 }
 /*# sourceMappingURL=style.css.map */
