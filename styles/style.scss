@@ -7,14 +7,14 @@ header {
     display: flex;
     justify-content: center;
     color: $textColor;
-}
-
-header button {
-    background: $primaryBtn;
-    color: $textColor;
+      button {
+        background: $primaryBtn;
+        color: $textColor;
+      }
 }
 
 .contact button {
     background: $primaryBtn;
     color: $textColor;
 }
+
