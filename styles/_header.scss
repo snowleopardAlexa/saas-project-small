@@ -1,14 +1,15 @@
 // mixins - it is like a function in JS
-@mixin flexCenter {
+@mixin flexCenter($direction) {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: $direction;
 }
 
 header {
 
-@include flexCenter();
+@include flexCenter(column);
 
     background: lightcoral;
     height: 100vh;
