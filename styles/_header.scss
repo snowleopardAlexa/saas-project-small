@@ -1,7 +1,17 @@
-header {
-    background: lightcoral;
+// mixins - it is like a function in JS
+@mixin flexCenter {
+    height: 100vh;
     display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+header {
+
+@include flexCenter();
+
+    background: lightcoral;
+    height: 100vh;
     color: $textColor;
       button {
         background: $primaryBtn;
