@@ -1,0 +1,14 @@
+header {
+    background: lightcoral;
+    display: flex;
+    justify-content: center;
+    color: $textColor;
+      button {
+        background: $primaryBtn;
+        color: $textColor;
+        &::after {
+            content: "Helloo";
+        }
+      }
+}
+
