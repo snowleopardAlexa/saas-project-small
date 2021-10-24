@@ -10,6 +10,9 @@ header {
       button {
         background: $primaryBtn;
         color: $textColor;
+        &:hover {
+            background: rgb(5, 5, 104);
+        }
       }
 }
 
