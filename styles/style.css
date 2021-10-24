@@ -27,6 +27,21 @@ header button::after {
   content: "Helloo";
 }
 
+.card, .contact button {
+  height: 100vh;
+  color: #f8f4f4;
+  background: chartreuse;
+}
+
+.card button, .contact button button {
+  background: #8a0b0b;
+  color: #f8f4f4;
+}
+
+.card button::after, .contact button button::after {
+  content: "Helloo";
+}
+
 .contact button {
   height: 100vh;
   display: -webkit-box;

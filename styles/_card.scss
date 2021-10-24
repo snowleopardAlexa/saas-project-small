@@ -1,0 +1,12 @@
+.card {
+   height: 100vh;
+   color: $textColor;
+   background: chartreuse;
+          button {
+            background: $primaryBtn;
+            color: $textColor;
+            &::after {
+                content: "Helloo";
+    }
+  }
+}
