@@ -14,8 +14,8 @@ header button {
   color: #f8f4f4;
 }
 
-header button:hover {
-  background: #050568;
+header button::after {
+  content: "Helloo";
 }
 
 .contact button {
