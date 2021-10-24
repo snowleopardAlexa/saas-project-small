@@ -3,6 +3,6 @@
 @import './header';
 
 .contact button {
-    @include flexCenter(row);
+    @include flexCenter(row, blue);
 }
 

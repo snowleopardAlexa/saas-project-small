@@ -13,7 +13,7 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: lightcoral;
+  background: red;
   height: 100vh;
   color: #f8f4f4;
 }
@@ -42,5 +42,6 @@ header button::after {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  background: blue;
 }
 /*# sourceMappingURL=style.css.map */
