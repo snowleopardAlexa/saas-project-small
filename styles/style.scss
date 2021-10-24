@@ -1,5 +1,20 @@
+// variables
+$primaryBtn : rgb(138, 11, 11);
+$textColor: rgb(248, 244, 244);
+
 header {
     background: lightcoral;
     display: flex;
     justify-content: center;
+    color: $textColor;
+}
+
+header button {
+    background: $primaryBtn;
+    color: $textColor;
+}
+
+.contact button {
+    background: $primaryBtn;
+    color: $textColor;
 }

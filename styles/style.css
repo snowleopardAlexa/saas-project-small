@@ -6,5 +6,16 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: #f8f4f4;
+}
+
+header button {
+  background: #8a0b0b;
+  color: #f8f4f4;
+}
+
+.contact button {
+  background: #8a0b0b;
+  color: #f8f4f4;
 }
 /*# sourceMappingURL=style.css.map */
